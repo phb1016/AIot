@@ -3,7 +3,7 @@ import requests                 # 날씨 API 호출을 위한 HTTP 통신 모듈
 import os                       # 시스템 명령어(espeak) 실행을 위한 모듈 로드
 import time                     # 시간 지연 제어를 위한 모듈 로드
 
-API_KEY = ""  # OpenWeatherMap에서 발급받은 인증키
+API_KEY = "4d77fab8b9f9759fbfe75ec8867c72a1"  # OpenWeatherMap에서 발급받은 인증키
 url = f"https://api.openweathermap.org/data/2.5/weather?q=Seoul&appid={API_KEY}&units=metric"  # 서울 날씨 데이터 요청 주소 (섭씨 기준)
 
 def speak(option, msg):
